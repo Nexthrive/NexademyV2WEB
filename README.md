@@ -1,23 +1,25 @@
 ## Project Structure
 
-nexademy/
-├── src/
-│   ├── app/
-│   │   ├── (_role)/
-│   │   │   ├── dashboard/
-│   │   │   │   └── page.tsx
-│   │   │   └── layout.tsx
-│   ├── components/
-│   │   ├── ui/
-│   │   │   └── button.tsx
-│   ├── services/
-│   │   ├── dashboard.service.ts 
-│   │   └── api.ts              
-│   ├── lib/
-├── middleware.ts
-├── next.config.js
-├── tsconfig.json
-├── package.json
+
+📂 **nexademy/**  
+├── 📂 **src/**  
+│   ├── 📂 **app/**  
+│   │   ├── 📂 **(_role)**  
+│   │   │   ├── 📂 **dashboard/**  
+│   │   │   │   └── 📄 **page.tsx**  
+│   │   │   └── 📄 **layout.tsx**  
+│   ├── 📂 **components/**  
+│   │   ├── 📂 **ui/**  
+│   │   │   └── 📄 **button.tsx**  
+│   ├── 📂 **services/**  
+│   │   ├── 📄 **dashboard.service.ts**  
+│   │   └── 📄 **api.ts**  
+│   ├── 📂 **lib/**  
+├── 📄 **middleware.ts**  
+├── 📄 **next.config.js**  
+├── 📄 **tsconfig.json**  
+├── 📄 **package.json**  
+
 
 
 
