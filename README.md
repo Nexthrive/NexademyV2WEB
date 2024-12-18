@@ -1,3 +1,4 @@
+![screenshot_2024-12-18T11:45:18](https://github.com/user-attachments/assets/221ffc44-1fb4-4cb6-91fd-11ce49b77c82)![screenshot_2024-12-18T11:45:18](https://github.com/user-attachments/assets/862010ed-3f83-416a-a213-c3a818aaea1f)
 
 ## Role-Driven Zoning Principles
 
