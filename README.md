@@ -1,3 +1,58 @@
+## Project Structure
+
+nexademy/
+├── src/
+│   ├── app/
+│   │   ├── (_role)/
+│   │   │   ├── dashboard/
+│   │   │   │   └── page.tsx
+│   │   │   └── layout.tsx
+│   ├── components/
+│   │   ├── ui/
+│   │   │   └── button.tsx
+│   ├── services/
+│   │   ├── dashboard.service.ts 
+│   │   └── api.ts              
+│   ├── lib/
+├── middleware.ts
+├── next.config.js
+├── tsconfig.json
+├── package.json
+
+
+
+### Key Directories
+
+- **src/app/**
+  - Core of the application, organized by roles.
+  - _role/: Placeholder for user-specific roles (e.g., admin, user).
+    - **dashboard/**: Contains pages and features related to user dashboards.
+    - **layout.tsx**: Defines the layout for the role.
+
+- **src/components/**
+  - Reusable UI components for the application.
+  - Example: ui/button.tsx contains the button component.
+
+- **src/services/**
+  - Centralized services for API handling and business logic.
+  - **dashboard.service.ts**: Contains logic for dashboard interactions.
+  - **api.ts**: Centralized API configuration.
+
+- **src/lib/**
+  - Utility functions and shared libraries.
+
+- **Root Files**
+  - **middleware.ts**: Middleware configuration for handling custom logic.
+  - **next.config.js**: Next.js configuration.
+  - **tsconfig.json**: TypeScript configuration for type checking.
+  - **package.json**: Dependencies and scripts for the project.
+
+## Role-Driven Zoning Principles
+
+1. **Role-based:** The application is divided into modules specific to user roles.
+2. **Zoning:** Features and components are isolated into dedicated zones for better maintainability.
+3. **Scalability:** New roles, components, or services can be added with minimal refactoring.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
