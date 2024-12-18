@@ -1,46 +1,23 @@
 ## Project Structure
 
-
-<!-- 📂 **nexademy/**   -->
-<!-- ├── 📂 **src/**   -->
-<!-- │   ├── 📂 **app/**   -->
-<!-- │   │   ├── 📂 **(_role)**   -->
-<!-- │   │   │   ├── 📂 **dashboard/**   -->
-<!-- │   │   │   │   └── 📄 **page.tsx**   -->
-<!-- │   │   │   └── 📄 **layout.tsx**   -->
-<!-- │   ├── 📂 **components/**   -->
-<!-- │   │   ├── 📂 **ui/**   -->
-<!-- │   │   │   └── 📄 **button.tsx**   -->
-<!-- │   ├── 📂 **services/**   -->
-<!-- │   │   ├── 📄 **dashboard.service.ts**   -->
-<!-- │   │   └── 📄 **api.ts**   -->
-<!-- │   ├── 📂 **lib/**   -->
-<!-- ├── 📄 **middleware.ts**   -->
-<!-- ├── 📄 **next.config.js**   -->
-<!-- ├── 📄 **tsconfig.json**   -->
-<!-- ├── 📄 **package.json**   -->
-
-<pre>
-nexademy/
-├── <span style="color: gray;">src/</span>
-│   ├── <span style="color: gray;">app/</span>
-│   │   ├── <span style="color: gray;">(_role)/</span>
-│   │   │   ├── <span style="color: gray;">dashboard/</span>
-│   │   │   │   └── <span style="color: red;">page.tsx</span>
-│   │   │   └── <span style="color: red;">layout.tsx</span>
-│   ├── <span style="color: gray;">components/</span>
-│   │   ├── <span style="color: gray;">ui/</span>
-│   │   │   └── <span style="color: red;">button.tsx</span>
-│   ├── <span style="color: gray;">services/</span>
-│   │   ├── <span style="color: red;">dashboard.service.ts</span>
-│   │   └── <span style="color: red;">api.ts</span>
-│   ├── <span style="color: gray;">lib/</span>
-├── <span style="color: red;">middleware.ts</span>
-├── <span style="color: red;">next.config.js</span>
-├── <span style="color: red;">tsconfig.json</span>
-├── <span style="color: red;">package.json</span>
-</pre>
-
+nexademy/  
+├── src/  
+│   ├── app/  
+│   │   ├── (_role)/  
+│   │   │   ├── dashboard/  
+│   │   │   │   └── *page.tsx*  
+│   │   │   └── *layout.tsx*  
+│   ├── components/  
+│   │   ├── ui/  
+│   │   │   └── *button.tsx*  
+│   ├── services/  
+│   │   ├── *dashboard.service.ts*  
+│   │   └── *api.ts*  
+│   ├── lib/  
+├── *middleware.ts*  
+├── *next.config.js*  
+├── *tsconfig.json*  
+├── *package.json*  
 
 
 
