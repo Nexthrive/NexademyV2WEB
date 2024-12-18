@@ -5,19 +5,19 @@ nexademy/
 │   ├── app/  
 │   │   ├── (_role)/  
 │   │   │   ├── dashboard/  
-│   │   │   │   └── *page.tsx*  
-│   │   │   └── *layout.tsx*  
+│   │   │   │   └── page.tsx  
+│   │   │   └── layout.tsx  
 │   ├── components/  
 │   │   ├── ui/  
-│   │   │   └── *button.tsx*  
+│   │   │   └── button.tsx  
 │   ├── services/  
-│   │   ├── *dashboard.service.ts*  
-│   │   └── *api.ts*  
+│   │   ├── dashboard.service.ts  
+│   │   └── api.ts  
 │   ├── lib/  
-├── *middleware.ts*  
-├── *next.config.js*  
-├── *tsconfig.json*  
-├── *package.json*  
+├── middleware.ts  
+├── next.config.js  
+├── tsconfig.json  
+├── package.json  
 
 
 
